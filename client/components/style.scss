@@ -82,12 +82,15 @@ input:focus {
   margin-left: 10px;
   color: #fff;
   margin-top: 10px;
+  border-top: 1px solid #01daf9;
+  text-align: center;
+  border-bottom: 1px solid #3dd5ec;
 }
 .time-nav{
-  background: #637194;;
-  width: 100%;
-  height: 50px;
-  margin: auto;
+background: #474747;
+width: 100%;
+height: 50px;
+margin-left: 0px;
 }
 .main-nav, .tasks-name {
   text-align: left;
@@ -144,4 +147,5 @@ ol, ul {
   margin-bottom: 14px;
   width: 100%;
   line-height: 2;
+  margin-left: -10px;
 }
